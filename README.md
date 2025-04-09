@@ -1,15 +1,17 @@
 # SB_MagicianMode
 Magician Mode hack for Soul Blazer on SNES
 
-Work-In-Progress hack for Soul Blazer on SNES:
+Current Updates (Alpha Version):
+1. Updates Title Screen to indicate mode
+2. 1st Lair is cleared of enemies
+3. Spells are 0-cost
+4. Swords no longer do damage, only spells work
+5. Certain enemies need to be defeated while specific swords are equipped
+6. Bosses can be damaged with spells, but sword damage is used instead
+7. Phoenix and Thunder Ring's blasts are not affected
 
-1. Swords no longer do damage or affect monsters
-2. Spells can damage bosses (even Deathtoll at the moment)
-3. Spells can damage monsters vulnerable to specific swords if those swords are equipped
-4. Spells cost 0 gems
-
-Currently working on:
-
-1. Having bosses damaged based on Sword Damage routine instead of Magic damage (otherwise, they are WAY too easy)
-2. Code cleanup
-3. Updating conversation with Magician Soul to reflect gameplay changes
+Planned Features for rest of Beta
+1. Updated story text
+2. Different method besides 0-gems maybe?
+3. Ideas from others
+4. More code cleanup
