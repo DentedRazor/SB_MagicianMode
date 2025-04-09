@@ -15,3 +15,5 @@ Planned Features for rest of Beta
 2. Different method besides 0-gems maybe?
 3. Ideas from others
 4. More code cleanup
+
+Special thanks to Tranquilite, hellow554, TheAxeMan301, Silky Soft Saeko, and LeHulk for advice, knowledge, and encouragement.
