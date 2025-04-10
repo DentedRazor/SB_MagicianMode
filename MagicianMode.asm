@@ -54,6 +54,8 @@ ADDR_COST_VAL_FLAME_PILLAR = $00A1B7
 ADDR_COST_VAL_TORNADO      = $00A1C7
 ADDR_COST_VAL_PHOENIX      = $009F95
 
+ADDR_MAGIC_ARMOR_INC = $00DB98
+
 ADDR_SWORD_CONTACT = $008B09
 
 ADDR_MAGIC_BOSS_CHECK = $008C82
@@ -121,6 +123,10 @@ db $00
 
 org ADDR_COST_VAL_PHOENIX
 db $00
+
+;Prevent Magic Armor check from incrementing cost to 0
+org ADDR_MAGIC_ARMOR_INC
+db $EA
 
 ;4. Updates to Sword Contact routine
 org ADDR_SWORD_CONTACT
